@@ -1,0 +1,192 @@
+@font-face {
+    font-family: "Rubik";
+    font-weight: 400;
+    src: local("Rubik"),
+     url(~assets/fonts/Rubik-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Rubik";
+    font-weight: 500;
+    src: local("Rubik"),
+     url(~assets/fonts/Rubik-Medium.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Poppins";
+    font-weight: bold;
+    src: local("Poppins"),
+     url(~assets/fonts/Poppins-Bold.ttf) format("truetype");
+}
+@font-face {
+    font-family: "SF-Pro-Text";
+    font-weight: 400;
+    src: local("SF-Pro-Text"),
+        url(~assets/fonts/SF-Pro-Text-Regular.otf) format("opentype");
+}
+@font-face {
+    font-family: "SF-Pro-Text";
+    font-weight: 500;
+    src: local("SF-Pro-Text"),
+        url(~assets/fonts/SF-Pro-Text-Medium.otf) format("opentype");
+}
+@font-face {
+    font-family: "SF-Pro-Text";
+    font-weight: 600;
+    src: local("SF-Pro-Text"),
+        url(~assets/fonts/SF-Pro-Text-Semibold.otf) format("opentype");
+}
+@font-face {
+    font-family: "SF-Pro-Text";
+    font-weight: bold;
+    src: local("SF-Pro-Text"),
+        url(~assets/fonts/SF-Pro-Text-Bold.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "SF-Pro-Display";
+    font-weight: 500;
+    src: local("SF-Pro-Display"),
+     url(~assets/fonts/SFPRODISPLAYMEDIUM.woff) format("woff");
+}
+@font-face {
+    font-family: "SF-Pro-Display";
+    font-weight: bold;
+    src: local("SF-Pro-Display"),
+     url(~assets/fonts/SFPRODISPLAYBOLD.woff) format("woff");
+}
+
+
+
+html {
+    font-family: "Rubik";
+    font-weight: 400;
+}
+
+
+.formControl {
+    margin-bottom: 23.1px;
+  }
+  
+  .formControl label {
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 1.125px;
+    text-transform: uppercase;
+  }
+  .inputText {
+    width: 100%;
+    height: 42px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #2E384D;
+    background: rgba(224, 231, 255, 0.2);
+    border: 1px solid #e0e7ff;
+    border-radius: 6px;
+    padding: 12px 16px;
+    margin: 03.1px 2px 0;
+  }
+  .inputText2 {
+    font-size: 15px;
+    font-weight: 400;
+    color: #2E384D;
+    background: rgba(224, 231, 255, 0.2);
+    border: 1px solid #e0e7ff;
+    border-radius: 6px;
+  }
+  /* .inputText:focus {
+    outline: 2px solid #2E5BFF;
+    background: #FFFFFF;
+  } */
+
+  .sendButton{
+    position: relative;
+    height: 50px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #2E5BFF;
+    border-radius: 6px;
+    width: 100%;
+  }
+  .sendButton:hover{
+    background: #2a53eb;
+  }
+  .sendButton:active{
+    top: 2px
+  }
+
+  .btnGroup {
+    width: 100%;
+    display: flex;
+    padding: 0 1px;
+  }
+  .btnGroup button {
+    height: 40px;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #3366ff;
+    margin: -1px;
+    border: 2px solid #e0e7ff;
+  }
+  .btnGroup button:first-child {
+    border-radius: 5px 0 0 5px;
+  }
+  .btnGroup button:last-child {
+    border-radius: 0 5px 5px 0;
+  }
+  .btnGroup .active {
+    background-color: #3366ff;
+    color: white;
+    border: 1px solid #e0e7ff;
+    z-index: 1;
+  }
+
+  .titleH2 {
+    font-family: 'SF-Pro-Display';
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #28293D;
+  }
+
+  .my_button {
+    background: #3366ff;
+    border-radius: 5px;
+    height: 40px;
+    font-family: "SF-Pro-Text";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: -0.35px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    transition: color 0.1s ease-in;
+    position: relative;
+  }
+  .my_button_white {
+    background: #fff;
+    color: #3366FF;
+    border: 1px solid #3366FF;
+  }
+  .my_button span {
+    margin-left: 10px;
+  }
+  .my_button:hover {
+    background: #2756e0;
+  }
+  .my_button_white:hover {
+    background: #f5f5f5;
+  }
+  .my_button:active {
+    top: 2px;
+  }
+
+  .action_box {
+    padding-top: 28px;
+    border-top: 2px solid #f5f5f7;
+    display: flex;
+    justify-content: flex-end;
+  }
